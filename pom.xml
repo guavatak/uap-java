@@ -7,6 +7,19 @@
   <version>1.3.1-SNAPSHOT</version>
   <name>ua-parser</name>
   <url>https://github.com/tobie/ua-parser/</url>
+
+
+    <distributionManagement>
+        <repository>
+            <id>unvus-releases</id>
+            <url>http://repo2.unvus.com/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>unvus-snapshots</id>
+            <url>http://repo2.unvus.com/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
